@@ -1,0 +1,13 @@
+name: HPSTR Site
+version: 1.0.0
+description: "The **HPSTR Skeleton** provides you with sample blog content and plugins including and **HPSTR Theme**."
+icon: camera-retro
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-skeleton-hpstr-site
+demo: http://demo.getgrav.org/hpstr-skeleton
+keywords: hpstr, skeleton, readingtime, highlight, relatedpages
+bugs: https://github.com/getgrav/grav-skeleton-hpstr-site/issues
+license: MIT

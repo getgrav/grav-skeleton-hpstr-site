@@ -1,4 +1,13 @@
-# HPSTR Grav Skeleton
+---
+title: Theme Setup
+description: "Instructions on how to install and customize the modern Grav theme HPSTR."
+image:
+  feature: abstract-11.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+share: true
+comments: false
+---
 
 This theme is a port of the [Jekyll HPSTR Theme](https://github.com/mmistakes/hpstr-jekyll-theme) developed my [mmistakes](https://mademistakes.com/)
 
@@ -9,6 +18,8 @@ The simplest way to install HPSTR theme for Grav is to download and install the 
 1. [Download HPSTR Skeleton](http://getgrav.org/downloads/skeletons#extras)
 2. Simply unzip the package into your web root folder.
 3. Point your browser at the folder, job done!
+
+<div markdown="0"><a href="http://getgrav.org/downloads/skeletons#extras" class="btn">Download the Skeleton</a></div>
 
 **TIP:** Check out the [general Grav installation instructions](http://learn.getgrav.org/basics/installation) for more details on this process.
 
@@ -25,13 +36,6 @@ $ bin/gpm install hpstr
 ```
 
 ---
-
-## Advanced GitHub-based installation
-
-1. Download and install [Grav](https://github.com/getgrav/grav)
-2. Create a new sandbox site with: `bin/grav sandbox ~/public_html/hpstr`
-3. Clone this repo into the `hpstr` folder as `user`: `git clone: https://github.com/getgrav/grav-skeleton-hpstr-site ~/public_html/hpstr/user`
-4. Install the plugin and theme dependencies: `bin/grav install`
 
 ## Configuration
 
