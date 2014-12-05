@@ -1,0 +1,31 @@
+title: HPSTR Theme
+description: Describe your website here.
+taxonomies: [tags]
+disqus_shortname: hpstrtheme
+owner:
+  name: Joe Bloggs
+  email: 'joe@test.com'
+  avatar: avatar.jpg
+  bio: Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: yourid
+  facebook:
+  github:
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +yourid
+
+metadata:
+    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+
+navigation:
+    - title: Theme Setup
+      url: /theme-setup
+    - title: External Link
+      url: http://getgrav.org
+

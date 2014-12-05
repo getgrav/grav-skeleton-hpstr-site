@@ -1,0 +1,2 @@
+format: '{minutes_short_count} {minutes_text}'
+round: 'minutes'

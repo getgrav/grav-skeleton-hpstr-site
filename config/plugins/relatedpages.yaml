@@ -1,0 +1,21 @@
+taxonomy_match:
+    taxonomy: tags
+    taxonomy_taxonomy:
+        process: true
+        score_scale:
+            1: 50
+            2: 75
+            3: 100
+    taxonomy_content:
+        process: true
+        score_scale:
+            1: 20
+            2: 30
+            3: 45
+            4: 60
+            5: 70
+            6: 80
+            7: 90
+            8: 100
+content_match:
+    process: false
