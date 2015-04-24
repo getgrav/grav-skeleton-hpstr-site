@@ -20,7 +20,7 @@ git:
         path: user/plugins/problems
         branch: develop
     readingtime:
-        url: https://github.com/nunopress/grav-plugin-readingtime
+        url: https://github.com/rhukster/grav-plugin-readingtime
         path: user/plugins/readingtime
         branch: develop     
     relatedpages:
