@@ -2,35 +2,35 @@ git:
     error:
         url: https://github.com/getgrav/grav-plugin-error
         path: user/plugins/error
-        branch: develop
+        branch: master
     feed:
         url: https://github.com/getgrav/grav-plugin-feed
         path: user/plugins/feed
-        branch: develop
+        branch: master
     highlight:
         url: https://github.com/getgrav/grav-plugin-highlight
         path: user/plugins/highlight
-        branch: develop 
+        branch: master 
     pagination:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination
-        branch: develop         
+        branch: master         
     problems:
         url: https://github.com/getgrav/grav-plugin-problems
         path: user/plugins/problems
-        branch: develop
+        branch: master
     readingtime:
         url: https://github.com/rhukster/grav-plugin-readingtime
         path: user/plugins/readingtime
-        branch: develop     
+        branch: master     
     relatedpages:
         url: https://github.com/getgrav/grav-plugin-relatedpages
         path: user/plugins/relatedpages
-        branch: develop    
+        branch: master    
     hpstr:
         url: https://github.com/getgrav/grav-theme-hpstr
         path: user/themes/hpstr
-        branch: develop
+        branch: master
 links:
     error:
         src: grav-plugin-error
