@@ -1,3 +1,9 @@
+# v1.0.4
+## 01/18/2025
+
+1. [](#bugfix)
+    * Fix to enable markdown extra
+
 # v1.0.3
 ## 12/28/2015
 
