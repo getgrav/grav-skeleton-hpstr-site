@@ -20,7 +20,7 @@ git:
         path: user/plugins/problems
         branch: master
     readingtime:
-        url: https://github.com/rhukster/grav-plugin-readingtime
+        url: https://github.com/getgrav/grav-plugin-readingtime
         path: user/plugins/readingtime
         branch: master     
     relatedpages:
