@@ -5,14 +5,15 @@ description: "Custom written post descriptions are the way to go... if you're no
 date: 06/25/2013
 taxonomy:
     tags: [sample post, video]
+video:
+    youtube: SU3kYxJmWuQ
 ---
-
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
 
 Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
 
-Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the `<iframe>` tags and remove `allowfullscreen`. Example below:
+The video goes in the post's front matter rather than in its content. Grav 2 escapes raw `<iframe>` tags in page content, so the theme draws the player for you:
 
-```
-<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+```yaml
+video:
+    youtube: SU3kYxJmWuQ   # or vimeo: 76979871
 ```
