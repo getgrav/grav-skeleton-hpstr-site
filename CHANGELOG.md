@@ -3,6 +3,7 @@
 
 1. [](#bugfix)
     * Uses the Grav readingtime plugin, so the site works on Grav 2 instead of failing on every page
+    * The release download is built the Grav 2 way, without the legacy +admin package, and no stray `refs/tags` release is created
 
 # v1.0.4
 ## 01/18/2025
