@@ -1,3 +1,9 @@
+# v1.0.7
+## 10/24/2026
+
+1. [](#improved)
+    * Updated for **Grav 2**: the package now includes Admin2 and installs the released version of every plugin and theme
+
 # v1.0.6
 ## 10/24/2026
 

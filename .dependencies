@@ -1,37 +1,85 @@
 git:
+    admin2:
+        url: 'https://github.com/getgrav/grav-plugin-admin2'
+        path: user/plugins/admin2
+        branch: main
+    api:
+        url: 'https://github.com/getgrav/grav-plugin-api'
+        path: user/plugins/api
+        branch: main
+    flex-objects:
+        url: 'https://github.com/trilbymedia/grav-plugin-flex-objects'
+        path: user/plugins/flex-objects
+        branch: master
+    form:
+        url: 'https://github.com/getgrav/grav-plugin-form'
+        path: user/plugins/form
+        branch: master
+    login:
+        url: 'https://github.com/getgrav/grav-plugin-login'
+        path: user/plugins/login
+        branch: master
+    email:
+        url: 'https://github.com/getgrav/grav-plugin-email'
+        path: user/plugins/email
+        branch: master
     error:
-        url: https://github.com/getgrav/grav-plugin-error
+        url: 'https://github.com/getgrav/grav-plugin-error'
         path: user/plugins/error
         branch: master
     feed:
-        url: https://github.com/getgrav/grav-plugin-feed
+        url: 'https://github.com/getgrav/grav-plugin-feed'
         path: user/plugins/feed
         branch: master
     highlight:
-        url: https://github.com/getgrav/grav-plugin-highlight
+        url: 'https://github.com/getgrav/grav-plugin-highlight'
         path: user/plugins/highlight
-        branch: master 
+        branch: master
     pagination:
-        url: https://github.com/getgrav/grav-plugin-pagination
+        url: 'https://github.com/getgrav/grav-plugin-pagination'
         path: user/plugins/pagination
-        branch: master         
+        branch: master
     problems:
-        url: https://github.com/getgrav/grav-plugin-problems
+        url: 'https://github.com/getgrav/grav-plugin-problems'
         path: user/plugins/problems
         branch: master
     readingtime:
-        url: https://github.com/getgrav/grav-plugin-readingtime
+        url: 'https://github.com/getgrav/grav-plugin-readingtime'
         path: user/plugins/readingtime
-        branch: master     
+        branch: master
     relatedpages:
-        url: https://github.com/getgrav/grav-plugin-relatedpages
+        url: 'https://github.com/getgrav/grav-plugin-relatedpages'
         path: user/plugins/relatedpages
-        branch: master    
+        branch: master
     hpstr:
-        url: https://github.com/getgrav/grav-theme-hpstr
+        url: 'https://github.com/getgrav/grav-theme-hpstr'
         path: user/themes/hpstr
         branch: master
 links:
+    admin2:
+        src: grav-plugin-admin2
+        path: user/plugins/admin2
+        scm: github
+    api:
+        src: grav-plugin-api
+        path: user/plugins/api
+        scm: github
+    flex-objects:
+        src: grav-plugin-flex-objects
+        path: user/plugins/flex-objects
+        scm: github
+    form:
+        src: grav-plugin-form
+        path: user/plugins/form
+        scm: github
+    login:
+        src: grav-plugin-login
+        path: user/plugins/login
+        scm: github
+    email:
+        src: grav-plugin-email
+        path: user/plugins/email
+        scm: github
     error:
         src: grav-plugin-error
         path: user/plugins/error
@@ -43,7 +91,7 @@ links:
     highlight:
         src: grav-plugin-highlight
         path: user/plugins/highlight
-        scm: github    
+        scm: github
     pagination:
         src: grav-plugin-pagination
         path: user/plugins/pagination
@@ -52,10 +100,14 @@ links:
         src: grav-plugin-problems
         path: user/plugins/problems
         scm: github
+    readingtime:
+        src: grav-plugin-readingtime
+        path: user/plugins/readingtime
+        scm: github
     relatedpages:
         src: grav-plugin-relatedpages
         path: user/plugins/relatedpages
-        scm: github    
+        scm: github
     hpstr:
         src: grav-theme-hpstr
         path: user/themes/hpstr
