@@ -21,10 +21,10 @@ They say three times the charm, so here is another free responsive Jekyll theme 
 * Comments powered by [Disqus](http://disqus.com) if you choose to enable.
 * Simple and clear permalink structure[^1].
 * [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
+* Simple [custom 404 page](/404) to get you started.
+* Stylesheets for Pygments and Coderay [syntax highlighting](/blog/code-highlighting-post) to make your code examples look snazzy
 * [Grunt](http://gruntjs.com) build script for easy theme development
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+[Install the Theme](/theme-setup?classes=btn,btn-info)
 
 [^1]: Example: *domain.com/category-name/post-title*

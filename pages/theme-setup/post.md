@@ -165,10 +165,13 @@ Here's an example of what a tweet to your site could look like if you activate T
 
 ### Videos
 
-Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/).
+Video embeds are responsive and scale with the width of the main content block with the help of [FitVids](http://fitvidsjs.com/). Add the video to the post's front matter, and the theme puts the player above the content. Grav 2 escapes raw `<iframe>` and `<script>` tags in page content, so embeds go here rather than in the Markdown:
 
-```
-<iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
+```yaml
+video:
+    youtube: PWf4WUoMXwg   # or vimeo: 76979871
+gists:
+    - mmistakes/6589546     # GitHub gists, embedded below the content
 ```
 
 ### Twitter Cards

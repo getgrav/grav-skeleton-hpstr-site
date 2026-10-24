@@ -9,8 +9,9 @@ image:
   feature: abstract-10.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-process:
-    twig: true;
+gists:
+    - mmistakes/6589546
+    - 8531391
 ---
 
 [Syntax highlighting](http://en.wikipedia.org/wiki/Syntax_highlighting) is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.
@@ -30,7 +31,6 @@ To modify styling and highlight colors edit `/assets/less/pygments.less` and com
 Line numbering enabled:
 
 ```
-{% verbatim %}
 <nav class="pagination" role="navigation">
     {% if page.previous %}
         <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
@@ -39,7 +39,6 @@ Line numbering enabled:
         <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
 </nav><!-- /.pagination -->
-{% endverbatim %}
 ```
 
 ``` ruby
@@ -65,7 +64,6 @@ end
 
 ### Standard Code Block
 
-    {% verbatim %}
     <nav class="pagination" role="navigation">
         {% if page.previous %}
             <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
@@ -74,7 +72,6 @@ end
             <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
         {% endif %}
     </nav><!-- /.pagination -->
-    {% endverbatim %}
 
 
 ### Fenced Code Blocks
@@ -90,14 +87,14 @@ To modify styling and highlight colors edit `/assets/less/coderay.less` and comp
 ~~~
 
 ~~~ html
-{% verbatim %}<nav class="pagination" role="navigation">
+<nav class="pagination" role="navigation">
     {% if page.previous %}
         <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
     {% endif %}
     {% if page.next %}
         <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
-</nav><!-- /.pagination -->{% endverbatim %}
+</nav><!-- /.pagination -->
 ~~~
 
 ~~~ ruby
@@ -122,8 +119,4 @@ end
 
 ### GitHub Gist Embed
 
-An example of a Gist embed below.
-
-{{ gist('mmistakes/6589546') }}
-
-{{ gist('8531391') }}
+Gists listed under `gists:` in the post's front matter are embedded below it. Grav 2 escapes raw `<script>` tags in page content, so the theme adds them instead.
