@@ -1,3 +1,9 @@
+# v1.0.5
+## 10/23/2026
+
+1. [](#bugfix)
+    * Uses the Grav readingtime plugin, so the site works on Grav 2 instead of failing on every page
+
 # v1.0.4
 ## 01/18/2025
 
